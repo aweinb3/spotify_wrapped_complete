@@ -206,6 +206,9 @@ else:
     2. Scroll down and check box for "Preparing Extended streaming history" (you only need this one)
     3. Click on "Request data"
     3. Wait for Spotify to prepare your data (can take a few hours to a few days)
-    4. Download and extract the JSON files
-    5. Upload them here!
+    4. Download files from email
+    5. Upload all files here!
+
+    ** Note: it will take a moment for all files to upload to the website
+    ** Other note: We do not store your data!! Everything occurs securly on streamlit's servers.
     """)
