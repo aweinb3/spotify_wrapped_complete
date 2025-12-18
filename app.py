@@ -205,7 +205,7 @@ else:
     1. Go to your [Spotify Account Privacy Settings](https://www.spotify.com/account/privacy/)
     2. Scroll down and check box for "Preparing Extended streaming history" (you only need this one)
     3. Click on "Request data"
-    3. Wait for Spotify to prepare your data (can take a few days)
+    3. Wait for Spotify to prepare your data (can take a few hours to a few days)
     4. Download and extract the JSON files
     5. Upload them here!
     """)
