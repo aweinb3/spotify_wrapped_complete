@@ -117,7 +117,7 @@ if uploaded_files:
                     .size()
                     .sort_values(ascending=False)
                     #.head(5)
-                    .loc[1:6]
+                    .iloc[1:6]
                 )
                 
                 for idx, (album, count) in enumerate(top_albums.items(), 1):
