@@ -209,6 +209,6 @@ else:
     4. Download files from email
     5. Upload all files here!
 
-    ** Note: it will take a moment for all files to upload to the website
+    ** Note: it will take a moment for all files to upload to the website  
     ** Other note: We do not store your data!! Everything occurs securly on streamlit's servers.
     """)
