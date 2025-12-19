@@ -135,7 +135,7 @@ if uploaded_files:
                 )
                 
                 for idx, (artist, minutes) in enumerate(top_artists.items(), 1):
-                    st.write(f"**{idx}.** {artist} — *{minutes:.0f} minutes*")
+                    st.write(f"**{idx}.** {artist} — *{minutes:,.0f} minutes*")
     
         st.divider()
         
@@ -169,7 +169,7 @@ if uploaded_files:
                 .head(20)
             )
             for idx, ((song, artist), count) in enumerate(all_time_songs.items(),1):
-                st.write(f"**{idx}. {song}** *{artist} - {count} streams*")
+                st.write(f"**{idx}. {song}** *{artist} - {count:,} streams*")
         
         with col2:
             st.subheader("💿 Top Albums (All-Time)")
@@ -181,7 +181,7 @@ if uploaded_files:
                 .head(20)
             )
             for idx, ((album, artist), count) in enumerate(all_time_albums.items(),1):
-                st.write(f"**{idx}. {album}** *{artist} - {count} streams*")
+                st.write(f"**{idx}. {album}** *{artist} - {count:,} streams*")
         
         with col3:
             st.subheader("🎤 Top Artists (All-Time)")
