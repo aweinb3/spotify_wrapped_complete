@@ -193,7 +193,7 @@ if uploaded_files:
                 .head(20)
             )
             for idx, (artist, hours) in enumerate(all_time_artists.items(),1):
-                st.write(f"**{idx}. {artist}** - *{hours:.1f} hours*")
+                st.write(f"**{idx}. {artist}** - *{hours} hours*")
         
     except Exception as e:
         st.error(f"Error processing files: {str(e)}")
