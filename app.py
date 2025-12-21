@@ -211,5 +211,4 @@ else:
     5. Upload all files here!
 
     ** Note: it will take a moment for all files to upload to the website  
-    ** Other note: We do not store your data!! Everything occurs securly on streamlit's servers.
     """)
