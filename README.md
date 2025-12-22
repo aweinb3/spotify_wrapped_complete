@@ -10,4 +10,4 @@ The project is intentionally simple and transparent — metrics are calculated i
 
 Tools: Python (pandas, Plotly, Streamlit)
 
-Live app: (https://spotifywrappedcomplete.streamlit.app/)
+Live app: https://spotifywrappedcomplete.streamlit.app/
