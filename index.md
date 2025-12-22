@@ -1,5 +1,7 @@
 # Spotify Wrapped Complete  
 
+**Live App Link:** [https://spotifywrappedcomplete.streamlit.app]
+  
 ## 1. Overview
 If you're a Spotify user, you've probably noticed that Wrapped has gone from a genuine year-end highlight to something that feels increasingly generic. There are two main things that have always bothered me.  
 1. **Wrapped stops collecting data in the beginning of November,** leaving the last couple months of the year unaccounted for.
@@ -15,8 +17,6 @@ When wrapped came out this year, a lot of jokes circulated about how the interne
 I started by just reopening my wrapped and taking note of every metric that was offered, and then worked on rebuilding those insights in a Jupyter notebook. Within a couple hours, I was able to reproduce most of the core outputs: top tracks, artists, listening time, grouped by year, as well as all time stats.  
 
 To make the project usable by others, I added a lightweight frontend using streamlit. With some assistance from Claude, I was able to develop an interactive UI that allows those who are less technically inclined to interact with my app as well.  
-
-**Live App:** [https://spotifywrappedcomplete.streamlit.app]
 
 ## 3. Tools
 - Python
