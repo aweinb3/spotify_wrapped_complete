@@ -34,4 +34,4 @@ I ended up learning much more from this project than initially intended. Beyond 
 This is intentionally an MVP, but I hope to expand it in the future. I'm already thinking about.
 - Connecting to more insights via Spotify's API (genres, artist popularity)
 - More behavioral insights (already looking into skip rates, seasonal trends, etc.)
-- Build a more enjoyable UI in framer.
+- Building a more enjoyable UI in framer.
