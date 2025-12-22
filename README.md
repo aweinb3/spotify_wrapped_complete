@@ -1,4 +1,4 @@
-# Spotify Streaming Analytics
+# Spotify Wrapped Complete
 
 A lightweight Streamlit app that recreates and extends Spotify Wrapped using raw Spotify listening history.
 
