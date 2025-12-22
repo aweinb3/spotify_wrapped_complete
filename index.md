@@ -1,6 +1,6 @@
 # Spotify Wrapped Complete  
 
-**Live App Link:** [https://spotifywrappedcomplete.streamlit.app]
+**Live App Link:** https://spotifywrappedcomplete.streamlit.app
   
 ## 1. Overview
 If you're a Spotify user, you've probably noticed that Wrapped has gone from a genuine year-end highlight to something that feels increasingly generic. There are two main things that have always bothered me.  
