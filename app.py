@@ -116,8 +116,8 @@ if uploaded_files:
                     streams.groupby('master_metadata_album_album_name')['s_played']
                     .size()
                     .sort_values(ascending=False)
-                    .head(5)
-                    # .iloc[1:6] # just so that linkedin screenshot isnt "FUCK YOU SKRILLEX"
+                    # .head(5)
+                    .iloc[1:6] # just so that linkedin screenshot isnt "FUCK YOU SKRILLEX"
                 )
                 
                 for idx, (album, count) in enumerate(top_albums.items(), 1):
