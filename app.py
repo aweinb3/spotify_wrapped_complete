@@ -152,7 +152,7 @@ if uploaded_files:
         
         yearly_minutes.columns = ['Year', 'Minutes']
         
-        fig = px.bar(yearly_minutes, x='Year', y='Minutes', color='Minutes', color_continuous_scale='Greens')
+        fig = px.bar(yearly_minutes, x='Year', y='Minutes', color='Minutes', color_continuous_scale='Blues')
         st.plotly_chart(fig, use_container_width=True)
 
 
