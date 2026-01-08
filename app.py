@@ -69,7 +69,7 @@ if uploaded_files:
             st.write(f"**{(filtered['s_played'] >= 30).sum():,} full streams** in selected period.")
             
             # Calculate metrics
-            st.subheader("📊 Your Listening Stats")
+            st.subheader("Annual Listening Stats")
             
             # Total minutes
             tot_minutes = filtered['s_played'].sum() / 60
@@ -138,7 +138,7 @@ if uploaded_files:
     
         st.divider()
         
-        st.subheader("📈 All-Time Stats")
+        st.subheader("All-Time Listneing Stats")
         
         # Making chart for all time streaming minutes
         
