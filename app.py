@@ -209,5 +209,5 @@ else:
     5. Download files from email
     6. Upload all files here!
 
-    ** Note: it will take a moment for all files to upload to the website  
+    ** Note: it may take a moment for all files to upload to the website  
     """)
