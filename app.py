@@ -97,7 +97,7 @@ if uploaded_files:
 
             # Top 5 Songs (by stream count, 30+ seconds)
             with col1:
-                st.subheader("🎵 Top 5 Songs")
+                st.subheader("Top 5 Songs")
                 streams = filtered[filtered['s_played'] >= 30].copy()
                 top_songs = (
                     streams.groupby('master_metadata_track_name')
@@ -111,7 +111,7 @@ if uploaded_files:
             
             # Top 5 Albums (by streams)
             with col2:
-                st.subheader("💿 Top 5 Albums")
+                st.subheader("Top 5 Albums")
                 top_albums = (
                     streams.groupby('master_metadata_album_album_name')['s_played']
                     .size()
@@ -124,7 +124,7 @@ if uploaded_files:
                 
             # Top 5 Artists (by total minutes)
             with col3:
-                st.subheader("🎤 Top 5 Artists")
+                st.subheader("Top 5 Artists")
                 top_artists = (
                     filtered.groupby('master_metadata_album_artist_name')['s_played']
                     .sum()
@@ -159,7 +159,7 @@ if uploaded_files:
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            st.subheader("🎵 Top Songs (All-Time)")
+            st.subheader("Top Songs (All-Time)")
             all_time_songs = (
                 df[df['s_played'] >= 30]
                 .groupby(['master_metadata_track_name', 'master_metadata_album_artist_name'])
@@ -171,7 +171,7 @@ if uploaded_files:
                 st.write(f"**{idx}. {song}** *{artist} - {count:,} streams*")
         
         with col2:
-            st.subheader("💿 Top Albums (All-Time)")
+            st.subheader("Top Albums (All-Time)")
             all_time_albums = (
                 df[df['s_played'] >= 30]
                 .groupby(['master_metadata_album_album_name', 'master_metadata_album_artist_name'])
@@ -183,7 +183,7 @@ if uploaded_files:
                 st.write(f"**{idx}. {album}** *{artist} - {count:,} streams*")
         
         with col3:
-            st.subheader("🎤 Top Artists (All-Time)")
+            st.subheader("Top Artists (All-Time)")
             all_time_artists = (
                 df.groupby('master_metadata_album_artist_name')['s_played']
                 .sum()
