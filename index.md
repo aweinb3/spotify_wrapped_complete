@@ -9,7 +9,7 @@ If you're a Spotify user, you've probably noticed that Wrapped has gone from a g
 
 This project started as a way to solve both these problems.  
 
-Spotify actually gives you access to your extended streaming history via your [account privacy tab](https://www.spotify.com/ca-en/account/privacy/), and once I recieved mine I was able to look back on over a decade of listening. Unlike third party services like Last.fm (which I love don't get me wrong), this lets you look back on *all* your data, not just what starts being collected when you sign up for the service.  
+Spotify actually gives you access to your extended streaming history via your [account privacy tab](https://www.spotify.com/ca-en/account/privacy/), and once I received mine I was able to look back on over a decade of listening. Unlike third party services like Last.fm (which I love don't get me wrong), this lets you look back on *all* your data, not just what starts being collected when you sign up for the service.  
 
 ## 2. Process  
 When wrapped came out this year, a lot of jokes circulated about how the internet goes crazy over what's essentially just some simple SQL queries. That curiosity pushed me to see how much of Wrapped I could recreate using my raw data.  
