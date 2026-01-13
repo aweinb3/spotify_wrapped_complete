@@ -4,9 +4,9 @@ import pandas as pd
 import plotly.express as px
 import json
 
-st.set_page_config(page_title="Wrapped Dupe", layout="wide")
+st.set_page_config(page_title="Wrapped Plus", layout="wide")
 
-st.title("Wrapped Dupe")
+st.title("Wrapped Plus")
 st.markdown("Upload your Spotify Extended Streaming History to see your listening stats")
 
 # File upload
@@ -138,7 +138,7 @@ if uploaded_files:
     
         st.divider()
         
-        st.subheader("All-Time Listneing Stats")
+        st.subheader("All-Time Listening Stats")
         
         # Making chart for all time streaming minutes
         
